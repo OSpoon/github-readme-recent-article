@@ -1,4 +1,5 @@
 import template from "art-template";
+import {logo} from "./logo";
 
 export const genArticleCard = (options: {
     title: string,
@@ -8,6 +9,7 @@ export const genArticleCard = (options: {
 }) => {
     const { title, url, date, description } = options;
     return template(`${__dirname}/template.html`, {
+        logo,
         title,
         url,
         date,
