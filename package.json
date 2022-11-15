@@ -1,0 +1,13 @@
+{
+  "name": "github-readme-recent-article",
+  "version": "0.0.1",
+  "description": "解析IT200.cn的RSS数据生成SVG卡片",
+  "author": "OSpoon",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@vercel/node": "^2.6.2",
+    "art-template": "^4.13.2",
+    "axios": "^1.1.3"
+  }
+}
